@@ -1,0 +1,51 @@
+Codificação HTML (conjuntos de caracteres)
+
+Para exibir uma página HTML corretamente, um navegador da web deve saber qual conjunto de caracteres usar.
+
+De ASCII para UTF-8
+ASCII foi o primeiro padrão de codificação de caracteres. O ASCII definiu 128 caracteres diferentes que podem ser usados ​​na Internet: números (0-9), letras em inglês (AZ) e alguns caracteres especiais como! $ + - () @ <>.
+
+ISO-8859-1 era o conjunto de caracteres padrão para HTML 4. Este conjunto de caracteres suportava 256 códigos de caracteres diferentes. HTML 4 também é compatível com UTF-8.
+
+ANSI (Windows-1252) era o conjunto de caracteres original do Windows. ANSI é idêntico ao ISO-8859-1, exceto que ANSI tem 32 caracteres extras.
+
+A especificação HTML5 incentiva os desenvolvedores da web a usar o conjunto de caracteres UTF-8, que cobre quase todos os caracteres e símbolos do mundo!
+
+O atributo de conjunto de caracteres HTML
+Para exibir uma página HTML corretamente, um navegador da web deve conhecer o conjunto de caracteres usado na página.
+
+Isso é especificado na <meta>tag:
+
+<meta charset="UTF-8">
+
+O conjunto de caracteres ASCII
+ASCII usa os valores de 0 a 31 (e 127) para caracteres de controle.
+
+ASCII usa os valores de 32 a 126 para letras, dígitos e símbolos.
+
+ASCII não usa os valores de 128 a 255.
+
+O conjunto de caracteres ANSI (Windows-1252)
+ANSI é idêntico ao ASCII para os valores de 0 a 127.
+
+ANSI possui um conjunto proprietário de caracteres para os valores de 128 a 159.
+
+ANSI é idêntico ao UTF-8 para os valores de 160 a 255.
+
+O Conjunto de Caracteres ISO-8859-1
+ISO-8859-1 é idêntico ao ASCII para os valores de 0 a 127.
+
+ISO-8859-1 não usa os valores de 128 a 159.
+
+ISO-8859-1 é idêntico ao UTF-8 para os valores de 160 a 255.
+
+O Conjunto de Caracteres UTF-8
+UTF-8 é idêntico ao ASCII para os valores de 0 a 127.
+
+UTF-8 não usa os valores de 128 a 159. 
+
+UTF-8 é idêntico ao ANSI e 8859-1 para os valores de 160 a 255.
+
+UTF-8 continua a partir do valor 256 com mais de 10.000 caracteres diferentes.
+
+Para uma visão mais detalhada, estude nossa Referência de conjunto de caracteres HTML completa .

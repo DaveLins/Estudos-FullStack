@@ -1,0 +1,87 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body{
+	background-color: white;
+	margin: 50px;
+	text-align: center;
+}
+
+body > div{
+	text-align: center;
+	display: inline-block;
+	box-shadow: 3px 5px 15px -10px black;
+	padding: 50px;
+	border-radius: 20px;
+	margin: 50px;
+}
+
+body > div > h1{
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	margin: 30px;
+	padding: 10px;
+	position: relative;
+	left: -45px;
+	color: black;
+}
+
+::placeholder{
+	color: #bfc3c2;
+	padding: 10px;
+}
+
+body > div > section > input{
+	display: block;
+	padding: 10px;
+	margin: 20px;
+	border-radius: 10px;
+	border-color: white;
+	box-shadow: 3px 5px 15px -10px black;
+	outline: 0;
+	border:  0 none;
+	width: 265px;
+	height: 25px;
+	padding: 10PX;
+}
+
+body > div > #sub{
+	display: flex;
+}
+
+body > div > #sub > .check{
+	width: 20px;
+	background-color: transparent;
+	box-shadow: none;
+	height: 15px;
+}
+
+body > div > #sub > p{
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: #bfc3c2;
+	position: relative;
+	top: 21px;
+	right: 10px;
+}
+
+body > div > #sub > .send{
+	position: relative;
+	bottom: 10px;
+	left: 10px;
+	width: 100px;
+	background-color: black;
+	color: white;
+	height: 40px;
+}
+
+body > div > #sub > .send:hover{
+	background-color: gray;
+	transition: 0.5s;
+}
