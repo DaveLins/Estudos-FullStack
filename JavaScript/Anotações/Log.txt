@@ -1,0 +1,15 @@
+Para fins de depuração, você pode chamar o console.log()método no navegador para exibir dados.
+
+Você aprenderá mais sobre depuração em um capítulo posterior.
+
+Exemplo
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+console.log(5 + 6);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterar source da tag img</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        img{
+            margin: 0 auto;
+            display: block;
+            padding: 50px;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <!--Uma img com um id lampada-->
+    <img id="lampada" src="apagada.png" alt="Lampada apagada">
+    <!--Button para acender a lampada-->
+    <button type="button" onclick='document.getElementById("lampada").src="acessa.png"'>Acender</button>
+    <!--Button para apagar a lampada-->
+    <button type="button" onclick='document.getElementById("lampada").src="apagada.png"'>Apagar</button>
+</body>
+</html>
