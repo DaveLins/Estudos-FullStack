@@ -1,0 +1,22 @@
+Rodape - Footer
+
+Como o próprio título diz, o footer representa o rodapé da página ou de qualquer outro contexto que ele estiver inserido.
+
+Este elemento pode conter informações relacionadas ao autor, direitos reservados ou blocos de navegação.
+
+Criando conteúdo do footer
+
+<footer>
+    <p>School of Net</p>
+    <small>&copy All rights reserve</small>
+</footer>
+
+Assim, já temos o nosso rodapé funcionando e estruturado. Basta estilizarem, caso queiram. Este elemento é muito simples, como todos os outros.
+
+Voltamos a repetir, muitos acreditam que nada mudou do HTML 4 para o 5, dizem que é exatamente o que faziam antes com as divs. Acreditem, a web está se voltando para um futuro bem mais estruturado.
+
+Por mais que pareça não mudar nada, utilizem as tags do HTML 5 para a criação de todos os projetos, porque fará a diferença em um futuro bem próximo e, também, no que diz respeito a mecanismos de busca. Os sites nos padrões antigos, por mais bonitos que estejam, e bem estruturados, ficarão para trás em relação aos novos, que as vezes, se encontram até mais simples.
+
+Caso as aplicações estejam nos padrões de desenvolvimento, vocês poderão criar recursos externos para lerem estas páginas e criarem estatísticas. Porque a ferramenta conseguirá identificar, facilmente, onde está o cabeçalho da página, o conteúdo principal. Verificará se existem artigos, se os artigos tem cabeçalho e rodapé e muito mais.
+
+Isso quer dizer que estamos caminhando para um controle muito maior de todas as aplicações.

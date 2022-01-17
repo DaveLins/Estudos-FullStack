@@ -1,5 +1,0 @@
-JavaScript pode ocultar elementos HTML
-Ocultar elementos HTML pode ser feito alterando o displayestilo:
-
-Exemplo
-document.getElementById("demo").style.display = "none";

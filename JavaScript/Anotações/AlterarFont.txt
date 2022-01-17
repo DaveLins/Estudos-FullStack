@@ -1,5 +1,0 @@
-JavaScript pode alterar estilos HTML (CSS)
-Alterar o estilo de um elemento HTML é uma variante de alterar um atributo HTML:
-
-Exemplo
-document.getElementById("demo").style.fontSize = "35px";
